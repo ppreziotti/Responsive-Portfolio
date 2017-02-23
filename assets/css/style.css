@@ -207,3 +207,87 @@ footer {
 	padding: 30px 0;
 	border-top: 8px solid #4aaaa5;
 }
+
+@media screen and (max-width: 980px) {
+	#logo {
+		margin-left: 80px;
+	}
+	nav {
+		margin-right: 80px;
+	}
+	#main-container {
+		width: 100%;
+		margin-left: 80px;
+		margin-right: 80px;
+	}
+	.main-section {
+		max-width: 50%;
+		margin-right: 40px;
+	}
+	.auth-image {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.sidebar {
+		float: left;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	header {
+		max-width: 100%;
+	}
+	#logo {
+		margin-left: 20px;
+	}
+	nav {
+		margin-right: 20px;
+	}
+	#main-container {
+		width: 100%;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.main-section {
+		width: 100%;
+		max-width: 100%;
+		margin-right: 20px;
+	}
+	.sidebar {
+		max-width: 100%;
+		float: left;
+		margin-bottom: 40px;
+}
+	.auth-image {
+		width: 200px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	#main-container {
+		width: 100%;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	header {
+		position: static;
+	}
+	#logo {
+		width: 100%;
+		margin-left: 0;
+	}	
+	nav {
+		padding-bottom: 20px;
+	}
+	.main-section {
+		max-width: 100%;
+	}
+	.sidebar {
+		float: left;
+		max-width: 100%;
+		margin-bottom: 40px;
+	}
+	.auth-image {
+		width: 200px;
+	}
+}
