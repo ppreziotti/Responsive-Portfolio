@@ -208,86 +208,126 @@ footer {
 	border-top: 8px solid #4aaaa5;
 }
 
+/*Defining new css styling for a user window that is 968px wide or less*/
 @media screen and (max-width: 980px) {
+	
 	#logo {
 		margin-left: 80px;
 	}
+
 	nav {
 		margin-right: 80px;
 	}
+
 	#main-container {
 		width: 100%;
 		margin-left: 80px;
 		margin-right: 80px;
 	}
+
 	.main-section {
 		max-width: 50%;
 		margin-right: 40px;
 	}
+
 	.auth-image {
 		width: 100%;
 		margin-bottom: 20px;
 	}
+
 	.sidebar {
 		float: left;
 	}
+
 }
 
+/*Defining new css styling for a user window that is 768px wide or less*/
 @media screen and (max-width: 768px) {
+	
 	header {
 		max-width: 100%;
 	}
+
 	#logo {
 		margin-left: 20px;
 	}
+
 	nav {
 		margin-right: 20px;
 	}
+
 	#main-container {
-		width: 100%;
+		max-width: 95%;
 		margin-left: 20px;
 		margin-right: 20px;
 	}
+
 	.main-section {
-		width: 100%;
 		max-width: 100%;
-		margin-right: 20px;
 	}
+
 	.sidebar {
 		max-width: 100%;
 		float: left;
 		margin-bottom: 40px;
-}
+		margin-right: 20px;
+	}	
+
 	.auth-image {
 		width: 200px;
 	}
+
+	.portfolio-image {
+		width: 50%;
+	}
 }
 
+
+/*Defining new css styling for a user window that is 640px wide or less*/
 @media screen and (max-width: 640px) {
+	
 	#main-container {
-		width: 100%;
-		margin-left: 20px;
-		margin-right: 20px;
+		max-width: 90%;
 	}
+
 	header {
 		position: static;
 	}
+
 	#logo {
 		width: 100%;
 		margin-left: 0;
 	}	
+
 	nav {
-		padding-bottom: 20px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		float: bottom;
+		text-align: center;
+		width: 100%;
 	}
+
+	nav a {
+	
+	}
+
 	.main-section {
 		max-width: 100%;
 	}
+
 	.sidebar {
 		float: left;
-		max-width: 100%;
+		width: 100%;
 		margin-bottom: 40px;
+		margin-right: 20px;
 	}
+
 	.auth-image {
-		width: 200px;
+		width: 100%;
 	}
+	
+	.portfolio img {
+		width: 100%;
+	}
+
 }
